@@ -1,4 +1,4 @@
-# Projeto TI_II_EX4
+# Projeto TI II EXERCICIO 4
 
 ## Pré-requisitos
 
@@ -25,9 +25,13 @@ As dependências são gerenciadas pelo Maven e estão listadas no arquivo `pom.x
     ```
 
 2.  **Executar a aplicação:**
-    Para executar a classe principal da aplicação, utilize o seguinte comando no terminal, a partir do diretório raiz do projeto:
+    Para executar a classe principal da aplicação, utilize o seguinte comando no Prompt de Comando, a partir do diretório raiz do projeto:
     ```bash
     mvn exec:java -Dexec.mainClass="com.ti2.ex4.App"
+    ```
+    Ou se estiver no terminal(powershell):
+    ```bash
+    mvn exec:java "-Dexec.mainClass=com.ti2.ex4.App"
     ```
     **Atenção:** Este comando assume que a classe principal é `com.ti2.ex4.App`. Se este arquivo foi removido ou alterado, o comando precisará ser ajustado para a nova classe principal.
 
@@ -39,5 +43,5 @@ A saída da interação com a LLM (as respostas às perguntas) será:
 
 ## Observações
 
-- Certifique-se de que as configurações de endpoint e credenciais no código (anteriormente em `App.java`) estejam corretas para a sua instância do serviço de LLM.
+- Certifique-se de que as configurações de endpoint e credenciais no código estejam corretas para a sua instância do serviço de LLM.
 - O console será limpo antes de cada nova saída da LLM ser impressa. 
