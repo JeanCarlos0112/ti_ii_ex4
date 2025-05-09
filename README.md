@@ -7,6 +7,8 @@
 
 ## Estrutura de diretórios do projeto
 
+* Nas pastas `Produto_1` e `Produto_2` estarão as imagens dos topicos 1 e 2 requisitados, na pasta code contém todo o codigo que faz a interação com a LLM, segue a estrutura abaixo:
+
 ```text
 .
 ├── Produto_1/
