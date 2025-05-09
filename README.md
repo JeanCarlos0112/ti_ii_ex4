@@ -63,7 +63,7 @@ As dependências são gerenciadas pelo Maven e estão listadas no arquivo `pom.x
    ou diretamente:
 
    ```bash
-   java -cp target/TI_II_EX4-1.0-SNAPSHOT.jar com.ti2.ex4.App
+   java -cp target/code-1.0-SNAPSHOT.jar com.ti2.ex4.App
    ```
 
 > **Observação:** Ajuste `com.ti2.ex4.App` se alterar o nome da classe principal.
